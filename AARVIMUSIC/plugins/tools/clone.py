@@ -229,6 +229,14 @@ async def restart_bots():
             )
     except Exception as e:
         logging.exception("Error while restarting bots.")
+        try:
+            if CLONE_LOGGER:
+                await app.send_message(
+                    CLONE_LOGGER, 
+                    f"Error while restarting bots: {str(e)}"
+                )
+        except Exception as log_error:
+            logging.error(f"Failed to send error to logger: {str(log_error)}")
 
 
 @app.on_message(filters.command("clonedinfo") & filters.user(OWNER_ID))
