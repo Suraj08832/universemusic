@@ -68,7 +68,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="˹ ❍ᴡηєꝛ ˼", url=f"https://t.me/Vampiree_queen"
+                text="˹ ❍ᴡηєꝛ ˼", url=f"https://t.me/chamber_of_heart1"
             ),
             InlineKeyboardButton(
                 text="˹ 𝐒υᴘᴘσꝛᴛ ˼ ", url=f"https://t.me/venompratapchat"
@@ -237,7 +237,7 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="˹ ❍ᴡηєꝛ ˼", url=f"https://t.me/Vampiree_queen"
+                text="˹ ❍ᴡηєꝛ ˼", url=f"https://t.me/chamber_of_heart1"
             ),
             InlineKeyboardButton(
                 text="˹ 𝐒υᴘᴘσꝛᴛ ˼ ", url=f"https://t.me/venompratapchat"
